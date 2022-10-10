@@ -1,0 +1,15 @@
+""""""
+gondolt_szam = 4
+print(type('Gondoltam egy számra'))
+tipp = input('Gondoltam egy számra. Tippeld meg! ')
+tipp = int(tipp)
+if tipp == gondolt_szam:
+    print('Ügyes!')
+    if tipp > gondolt_szam:
+        print('A tipp nagyobb mint a tippelt szám.')
+    if tipp < gondolt_szam:
+        print('A tipp kisebb mint a tippelt szám.')
+        
+    print('Nem sikerült')
+    print('Pápá')
+    """"""
