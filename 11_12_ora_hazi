@@ -1,0 +1,10 @@
+egyikszam=int(input('Kérem az egyik számot 1-100-ig.: '))
+masikszam=int(input('Kérem az egyik számot 1-100-ig.: '))
+if egyikszam>masikszam:
+    print('Az első szám nagyobb')
+    print('Ennyivel nagyobb:',egyikszam-masikszam)
+elif masikszam>egyikszam:
+    print('Az első szám kisebb')
+    print('Ennyivel kisebb:',masikszam-egyikszam)
+else:
+    print('Megegyezik a két szám')
