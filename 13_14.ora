@@ -1,0 +1,16 @@
+#Első feladat 
+elsoszam=int(input('Kérjünk be két egész számot'))
+masodikszam=int(input('Kérjünk be két egész számot'))
+"""
+if elsoszam>masodikszam:
+    print('Az elsőszám nagyobb')
+if elsoszam<masodikszam:
+    print('Az másodikszám nagyobb')
+    """
+if elsoszam>masodikszam:
+    print(elsoszam)
+elif masodikszam>elsoszam:
+    print(masodikszam)
+else:
+    print('Az első szám megegyezik a második számmal')
+
