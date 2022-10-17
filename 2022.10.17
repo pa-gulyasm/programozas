@@ -1,0 +1,19 @@
+#Bekérünk két egész számot és irassuk ki a nagyobb számot
+'''
+szamegy=int(input('Kérek egy egész számot '))
+szamketto=int(input('Kérek egy egész számot '))
+if szamegy>szamketto:
+    print('Az első szám nagyobb')
+if szamketto>szamegy:
+    print('Az második szám nagyobb')
+'''
+
+szamegy=int(input('Kérek egy egész számot '))
+szamketto=int(input('Kérek egy egész számot '))
+if szamegy>szamketto:
+    print('Az első szám nagyobb')
+elif szamketto>szamegy:
+    print('Az második szám nagyobb')
+else:
+    szamegy == szamketto
+    print('A két szám megegyezik')
