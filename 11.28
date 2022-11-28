@@ -1,0 +1,28 @@
+"""
+for szam in range (58,101,3):
+    print(szam,end=" ")
+
+print()
+for szam in range(50,101,3):
+    print(szam,end=" ")
+    print()
+
+for szam in range(50,101,3):
+    if szam % 2 == 0:
+        print(szam,end=" ")
+    print("Program Vége")
+
+szoveg="Hello Világ"
+for kar in szoveg:
+    print(kar,end="")
+
+név = input("Add meg a nevedet:")
+for kar in név:
+    print(név.upper(),end="")
+"""
+szamlalo = 0
+név = input("Add meg a nevedet kisbetűvel:")
+for kar in név:
+    print(kar,end=" ")
+    print(szamlalo,end=" ")
+    szamlalo += 1
