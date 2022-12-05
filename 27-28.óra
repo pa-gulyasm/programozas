@@ -1,0 +1,76 @@
+# A Python lista
+lista = ["alma", "banán", "cseresznye"]
+print(lista)
+# ["alma", "banán", "cseresznye"]
+#-----------------------------------------------------------
+lista = ["alma", "banán", "cseresznye", "alma", "banán"]
+print(lista)
+# ["alma", "banán", "cseresznye", "alma", "banán"]
+#-----------------------------------------------------------
+lista = ["alma", "banán", "cseresznye", "alma", "banán"]
+print(lista)
+print(lista[0])
+print(lista[3])
+# alma alma
+#-----------------------------------------------------------
+lista = ["alma", "banán", "cseresznye"]
+print(len(lista))
+# 3
+#-----------------------------------------------------------
+lista = ["alma", "banán", "cseresznye"]
+print(len(lista))
+hossza = len(lista)
+print(hossza)
+# 3
+#-----------------------------------------------------------
+lista1 = ["alma", "banán", "cseresznye"]   # string
+lista2 = [1, 5, 7, 9, 3]   # int
+lista3 = [True, False, False]  # bool
+#-----------------------------------------------------------
+lista1 = ["abc", 34, True, 40, "férfi"]
+print(lista1)
+# ['abc', 34, True, 40, 'férfi']
+lista5 = ["alma", "banán", "cseresznye"]
+print(type(lista5))
+# <class 'list'>
+#-----------------------------------------------------------
+lista = list(("alma", "banán", "cseresznye"))  # vegye figyelembe a dupla kerek zárójeleket
+print(lista)
+# ["alma", "banán", "cseresznye"]
+lista = ["alma", "banán", "cseresznye"]
+print(lista[1])
+# banán
+#-----------------------------------------------------------
+lista = ["alma", "banán", "cseresznye"]
+print(lista[-1])
+# cseresznye
+#-----------------------------------------------------------
+lista = ["alma-0", "banán-1", "cseresznye-2", "narancs-3", "kivi-4", "szőlő-5", "mangó-6"]
+print(lista[2:5]) #  ['cseresznye-2", "narancs-3", "kivi-4"]
+# index = 0, 1, 2, 3 !
+#-----------------------------------------------------------
+lista = ["alma-0", "banán-1", "cseresznye-2", "narancs-3", "kivi-4", "szőlő-5", "mangó-6"]
+print(lista[:4])
+#----------------------------------------------------------------------------------------------
+lista = ["alma-0", "banán-1", "cseresznye-2", "narancs-3", "kivi-4", "szőlő-5", "mangó-6"]
+print(lista[2:])
+ujlista = lista[2:2]
+print(ujlista)
+#----------------------------------------------------------------------------------------------
+lista_10D_1csop = []
+lista_10D_1csop = ["FB", "GM", "HK", "KG", "MM", "OA", "PJ", "PP", "SP", "SR", "SM", "TB", "TS", "TT"]
+
+csop1 = []
+csop2 = []
+csop3 = []
+
+csop1 = lista_10D_1csop[0:5]
+csop2 = lista_10D_1csop[5:10]
+csop3 = lista_10D_1csop[10:]
+
+print(csop1, csop2, csop3)
+#----------------------------------------------------------------------------------------------
+lista = ["alma-0", "banán-1", "cseresznye-2", "narancs-3", "kivi-4", "szőlő-5", "mangó-6"]
+print(lista[-4:-1]) #  ["narancs-3", "kivi-4", "szőlő-5"] 
+#----------------------------------------------------------------------------------------------
+
