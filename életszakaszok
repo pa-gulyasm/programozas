@@ -1,0 +1,41 @@
+#--------------------------------------------
+nev = (input('Kérek egy nevet! '))
+ev = int(input('Kérek az életkorát! '))
+if ev < 2:
+    print(nev,'Csecsemő')
+elif ev < 2:
+        print(nev,'Kisgyerek')
+elif ev < 6:
+        print(nev,'Gyerek')
+elif ev < 12:
+        print(nev,'Serdülő')
+elif ev < 16:
+        print(nev,'Ifjút')
+elif ev < 25:
+        print(nev,'Felnőtt')
+elif ev < 65:
+        print(nev,'Nyugdíjas')
+elif ev > 65:
+        print(nev,'Nyugdíjas')
+#-------------------------------------------
+
+'''
+nev = (input('Kérek egy nevet! '))
+ev = int(input('Kérek az életkorát! '))
+if ev < 2:
+    print("A kora alapján", nev,'Csecsemő')
+elif ev < 2:
+        print("A kora alapján", nev,'Kisgyerek')
+elif ev < 6:
+        print("A kora alapján", nev,'Gyerek')
+elif ev < 12:
+        print("A kora alapján", nev,'Serdülő')
+elif ev < 16:
+        print("A kora alapján", nev,'Ifjút')
+elif ev < 25:
+        print("A kora alapján", nev,'Felnőtt')
+elif ev < 65:
+        print("A kora alapján", nev,'Nyugdíjas')
+else:
+        print("A kora alapján", nev,'Nyugdíjas')
+'''
